@@ -20,3 +20,4 @@ based on [Rclone](https://rclone.org)
 }
 ```
 
+the macOS executable targets Apple Silicon. you may download a universal binary edition from releases.
