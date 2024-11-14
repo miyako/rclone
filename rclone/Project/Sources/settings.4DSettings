@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="4">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="5">
 	<com.4d>
 		<compiler>
 			<options target="all"/>
 		</compiler>
-		<general component_classStore_name="FFmpeg"/>
+		<general component_classStore_name="Rclone"/>
 		<interface>
 			<developper display_toolbar="true"/>
 		</interface>
