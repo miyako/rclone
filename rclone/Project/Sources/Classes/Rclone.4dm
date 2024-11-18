@@ -4,6 +4,10 @@ Class constructor($controller : 4D:C1709.Class)
 	
 	Super:C1705("rclone"; $controller)
 	
+Function get worker() : 4D:C1709.SystemWorker
+	
+	return This:C1470._controller.worker
+	
 Function _terminate()
 	
 	This:C1470.controller.terminate()
