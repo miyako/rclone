@@ -14,7 +14,7 @@ based on [Rclone](https://rclone.org)
 	"dependencies": {
 		"rclone": {
 			"github": "miyako/rclone",
-			"version": "^1.0.0"
+			"version": "*"
 		}
 	}
 }
