@@ -3,9 +3,12 @@
 [![license](https://img.shields.io/github/license/miyako/rclone)](LICENSE)
 ![downloads](https://img.shields.io/github/downloads/miyako/rclone/total)
 
-# rclone
+### Licensing
 
-based on [Rclone](https://rclone.org)
+* the source code of this component is licensed under the [MIT license](https://github.com/miyako/rclone/blob/master/LICENSE).
+* see [rclone.org](https://rclone.org/licence/) for the licensing of **Rclone**.
+
+# rclone
 
 ## dependencies.json
 
