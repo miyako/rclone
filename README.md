@@ -23,4 +23,4 @@
 }
 ```
 
-the macOS executable targets Apple Silicon. you may download a universal binary edition from releases.
+the macOS executable targets Apple Silicon. you may download a universal binary edition from [releases](https://github.com/miyako/rclone/releases/tag/bin-1.0.0).
