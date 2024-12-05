@@ -4,6 +4,8 @@ Class constructor($controller : 4D:C1709.Class)
 	
 	Super:C1705("rclone"; $controller=Null:C1517 ? cs:C1710._Rclone_Controller : $controller)
 	
+	This:C1470._EOL:="\n"  //also on windows
+	
 Function get worker() : 4D:C1709.SystemWorker
 	
 	return This:C1470.controller.worker
