@@ -2,15 +2,23 @@ Class extends _CLI
 
 Class constructor($controller : 4D:C1709.Class)
 	
-	Super:C1705("rclone"; $controller)
+	Super:C1705("rclone"; $controller=Null:C1517 ? cs:C1710._Rclone_Controller : $controller)
 	
 Function get worker() : 4D:C1709.SystemWorker
 	
-	return This:C1470._controller.worker
+	return This:C1470.controller.worker
 	
-Function _terminate()
+Function terminate()
 	
 	This:C1470.controller.terminate()
+	
+Function version() : Text
+	
+	This:C1470.start(["version"]).worker.wait()
+	
+	$version:=Split string:C1554(This:C1470.data; This:C1470.EOL; sk ignore empty strings:K86:1)
+	
+	return $version.length#0 ? $version[0] : ""
 	
 Function start($options : Collection) : cs:C1710.Rclone
 	
