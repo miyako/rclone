@@ -17,7 +17,7 @@
 	"dependencies": {
 		"rclone": {
 			"github": "miyako/rclone",
-			"version": "*"
+			"version": "latest"
 		}
 	}
 }
